@@ -1,9 +1,20 @@
 # Tous O Sport API v.1.0
-Tous O Sport est une API gérant la mise en relation de coachs et de pratiquants cherchant du coaching de groupe !
+L'API Tous O Sport est un projet de fin de formation.
+L'objectif de Tous O Sport est de mettre en relation des coachs et des sportifs pour des séances de sport en groupe.
 
-L'API Tous O Sport a été développée avec :
+![Tous O Sport](https://cedriccharlesia.com/img/tous-o-sport.png)
+
+## Fonctionnalités de l'API
+- La récupération des catégories de sports en base de données
+- L'inscription et la connexion des coachs et des utilisateurs
+- La possibilité pour les coachs et utilisateurs de modifier et/ou supprimer leur profil
+- La possibilité pour les coachs de proposer des séances de sport
+
+## Outils de développement de l'API
 - Node.js et le framework Express
 - PostgreSQL pour la conception de la base de données
+
+Cette API ne contient pas l'interface utilisateur qui a été développée séparément en React par une autre équipe de développeurs.
 
 ## Lancer le projet en production
 **`npm start`** dans le répertoire à la racine du projet
@@ -21,13 +32,6 @@ La base de données est versionnée avec l'outil [Sqitch](https://sqitch.org/).
 **`sqitch verify`**
 - Pour ajouter une nouvelle migration :
 **`sqitch add nom-de-la-migration`**
-
-## Les fonctionnalités
-L'API permet :
-- La récupération des catégories de sports en base de données
-- L'inscription et la connexion des coachs et des utilisateurs
-- La possibilité pour les coachs et utilisateurs de modifier et/ou supprimer leur profil
-- La possibilité pour les coachs de proposer des séances de sport
 
 ## Pour en savoir plus
 Pour tester les fonctionnalités, [l'API est disponible sur Heroku](https://tous-o-sport-api.herokuapp.com/docs/)
