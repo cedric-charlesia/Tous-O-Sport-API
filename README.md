@@ -14,7 +14,7 @@ L'objectif de Tous O Sport est de mettre en relation des coachs et des sportifs 
 - Node.js et le framework Express
 - PostgreSQL pour la conception de la base de données
 
-Cette API ne contient pas l'interface utilisateur qui a été développée séparément en React par une autre équipe de développeurs.
+Cette API est reliée à une interface utilisateur développée par autre équipe de développeurs également en formation et spécialisée en React. [Une démo est disponible ici](https://tousosport.netlify.app/).
 
 ## Lancer le projet en production
 **`npm start`** dans le répertoire à la racine du projet
